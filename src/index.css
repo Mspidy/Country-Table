@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.my-form {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.my-form p {
+  margin: 0;
+}
+
+.my-form .error {
+  color: rgb(247, 70, 70);
+  font-size: 13px;
+}
